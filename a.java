@@ -10,7 +10,7 @@ public class a {
         
         // obja1.display();
         // obja1.show();
-        // addition with object s
+        // addition with object
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int y = sc.nextInt();
