@@ -10,17 +10,16 @@ public class a {
         
         // obja1.display();
         // obja1.show();
-        // addition with object//
+        // addition with object 
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        double y = sc.nextDouble();
+        int y = sc.nextInt();
         int sum=x+y;
         System.out.println(sum);
-        // Q objQ = new Q();
-        // objQ.add(x,y);
-        // objQ.sub(x,y);
-        // objQ.multi(x,y);
-        // objQ.div(x,y);
+        Q objQ = new Q();
+        objQ.sub(x,y);
+        objQ.multi(x,y);
+        objQ.div(x,y);
     }
 }
 class Q{
